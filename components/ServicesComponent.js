@@ -11,7 +11,7 @@ class Services extends Component {
     render() {
         return (
             <ScrollView>
-                <Card title='Contact Information' wrapperStyle={{ margin: 20 }}>
+                <Card title='Services'>
                     <Text>SERVICES HERE</Text>
                 </Card>
             </ScrollView>

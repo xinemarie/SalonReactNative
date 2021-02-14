@@ -47,7 +47,7 @@ const AboutNavigator = createStackNavigator(
                 color: '#fff'
             },
             headerLeft: <Icon
-                name='info'
+                name='user-circle'
                 type='font-awesome'
                 iconStyle={styles.stackIcon}
                 onPress={() => navigation.toggleDrawer()}
@@ -143,7 +143,7 @@ const MainNavigator = createDrawerNavigator(
             navigationOptions: {
                 drawerIcon: ({ tintColor }) => (
                     <Icon
-                        name='info'
+                        name='user-circle'
                         type='font-awesome'
                         size={24}
                         color={tintColor}

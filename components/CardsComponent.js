@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, FlatList, View, Image } from 'react-native';
+import { Text, FlatList, Image } from 'react-native';
 import { Card, Button } from 'react-native-elements';
 
 const cards = [
